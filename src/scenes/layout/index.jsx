@@ -4,6 +4,7 @@ import { Outlet } from "react-router-dom";
 import { useSelector } from "react-redux";
 import Navbar from "components/Navbar";
 import Sidebar from "components/Sidebar";
+import Footer from "components/Footer";
 
 const Layout = () => {
   const isNonMobile = useMediaQuery("(min-width: 600px");
@@ -23,6 +24,7 @@ const Layout = () => {
           setIsSidebarOpen={setIsSidebarOpen}
         />
         <Outlet />
+        <Footer />
       </Box>
     </Box>
   );

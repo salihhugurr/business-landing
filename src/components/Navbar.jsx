@@ -3,12 +3,10 @@ import {
   LightModeOutlined,
   DarkModeOutlined,
   Menu as MenuIcon,
-  ChevronLeftOutlined,
 } from "@mui/icons-material";
 import FlexBetween from "./FlexBetween";
 import { useDispatch } from "react-redux";
 import { setMode } from "state";
-import profileImage from "assets/profile.jpeg";
 import {
   AppBar,
   Button,
@@ -17,18 +15,14 @@ import {
   ListItem,
   ListItemText,
   ListItemButton,
-  InputBase,
-  Menu,
-  Box,
   Typography,
-  MenuItem,
   Toolbar,
   useTheme,
 } from "@mui/material";
 import { useLocation, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import i18next from "i18next";
-import Header from "./Header";
+import logo from "../assets/icon.svg";
 
 const navItems = [
   {
@@ -76,6 +70,14 @@ const Navbar = ({ isSidebarOpen, setIsSidebarOpen, isNonMobile }) => {
       <Toolbar sx={{ justifyContent: "space-between" }}>
         {/* LEFT SIDE */}
         <FlexBetween gap="1.5rem">
+          <img
+            src={logo}
+            style={{
+              height: isNonMobile ? 40 : 30,
+              width: isNonMobile ? 40 : 30,
+            }}
+            alt="Peglad."
+          />
           {isNonMobile && (
             <List sx={{ display: "flex" }}>
               {navItems.map(({ text, icon }) => {
@@ -104,9 +106,6 @@ const Navbar = ({ isSidebarOpen, setIsSidebarOpen, isNonMobile }) => {
                 );
               })}
             </List>
-          )}
-          {!isNonMobile && (
-            <Header title={active.toUpperCase()} fontSize="20px" />
           )}
         </FlexBetween>
 

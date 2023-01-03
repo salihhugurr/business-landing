@@ -27,6 +27,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import FlexBetween from "./FlexBetween";
 import profileImage from "assets/profile.jpeg";
 import { useTranslation } from "react-i18next";
+import logo from "../assets/icon.svg";
 
 const navItems = [
   {
@@ -94,6 +95,11 @@ const Sidebar = ({
             <Box m={"1.5rem 2rem 2rem 3rem"}>
               <FlexBetween color={theme.palette.secondary.main}>
                 <Box display="flex" alignItems="center" gap="0.5rem">
+                  <img
+                    src={logo}
+                    style={{ height: 40, width: 40 }}
+                    alt="Peglad."
+                  />
                   <Typography variant="h4" fontWeight="bold">
                     Peglad
                   </Typography>

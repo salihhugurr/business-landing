@@ -5,4 +5,5 @@ export const translationEn = {
   Career: "Career",
   Contact: "Contact",
   Pages: "Pages",
+  Copyright: "@ 2023 Peglad. All rights reserved.",
 };

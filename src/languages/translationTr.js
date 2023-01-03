@@ -5,4 +5,5 @@ export const translationTr = {
   Career: "Kariyer",
   Contact: "İletişim",
   Pages: "Sayfalar",
+  Copyright: "@ 2023 Peglad. Tüm hakları saklıdır.",
 };
