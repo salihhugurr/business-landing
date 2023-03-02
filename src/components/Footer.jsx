@@ -8,7 +8,6 @@ import {
   Stack,
   IconButton,
 } from "@mui/material";
-import FlexBetween from "./FlexBetween";
 import { useTranslation } from "react-i18next";
 import { Twitter, Facebook, Instagram } from "@mui/icons-material";
 import logo from "../assets/icon.svg";

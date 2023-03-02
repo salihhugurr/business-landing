@@ -1,5 +1,5 @@
 import { Box, useTheme, Typography, useMediaQuery } from "@mui/material";
-import React, { useState } from "react";
+import React from "react";
 import project1 from "../../assets/project1.svg";
 import project2 from "../../assets/project2.svg";
 import project3 from "../../assets/project3.svg";

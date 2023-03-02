@@ -1,5 +1,4 @@
-import { Box, useTheme, Typography, useMediaQuery, Icon } from "@mui/material";
-import Header from "components/Header";
+import { Box, useTheme, Typography, useMediaQuery } from "@mui/material";
 import React, { useState } from "react";
 import target from "../../assets/target.svg";
 import services from "../../assets/services.svg";

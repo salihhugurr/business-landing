@@ -7,7 +7,6 @@ import team from "../../assets/team.svg";
 import { useTranslation } from "react-i18next";
 
 const About = () => {
-  const [counterOn, setCounterOn] = useState(false);
   const theme = useTheme();
   const { t } = useTranslation();
   const isNonMobile = useMediaQuery("(min-width: 600px");

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import {
   Box,
-  Divider,
   Drawer,
   IconButton,
   List,
@@ -17,15 +16,11 @@ import {
   TaskOutlined,
   HomeOutlined,
   ShoppingCartOutlined,
-  Groups2Outlined,
-  ReceiptLongOutlined,
-  PublicOutlined,
   ChevronRight,
   ContactPageOutlined,
 } from "@mui/icons-material";
 import { useLocation, useNavigate } from "react-router-dom";
 import FlexBetween from "./FlexBetween";
-import profileImage from "assets/profile.jpeg";
 import { useTranslation } from "react-i18next";
 import logo from "../assets/icon.svg";
 
