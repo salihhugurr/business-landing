@@ -1,7 +1,18 @@
 import React from "react";
-import { Container, Typography, Link, Box, useTheme } from "@mui/material";
+import {
+  Container,
+  Typography,
+  Link,
+  Box,
+  useTheme,
+  Stack,
+  IconButton,
+} from "@mui/material";
 import FlexBetween from "./FlexBetween";
 import { useTranslation } from "react-i18next";
+import { Twitter, Facebook, Instagram } from "@mui/icons-material";
+import logo from "../assets/icon.svg";
+import Partition from "./Partition";
 
 const Footer = () => {
   const theme = useTheme();
@@ -9,62 +20,42 @@ const Footer = () => {
 
   return (
     <footer>
+      <Partition />
       <Box
         flexDirection={"column"}
-        borderTop={1}
         p={"1rem"}
         sx={{
-          borderColor: theme.palette.secondary[300],
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
         }}
         gap="1rem"
       >
-        <Typography
-          sx={{
-            color: theme.palette.primary[200],
+        <img
+          src={logo}
+          style={{
+            height: 30,
+            width: 30,
           }}
-        >
-          Peglad
+          alt="Peglad."
+        />
+        <Typography color={theme.palette.secondary[50]} fontSize={10}>
+          {t("Address")}
         </Typography>
-        <Box sx={{ display: "flex" }}>
-          <Typography
-            sx={{
-              color: theme.palette.primary[200],
-            }}
+        <Stack direction="row">
+          <IconButton
+            href="https://www.instagram.com/pegladmedya/"
+            target="_blank"
           >
-            Link 1
-          </Typography>
-          <Typography
-            sx={{
-              color: theme.palette.primary[200],
-            }}
-          >
-            Link 2
-          </Typography>
-          <Typography
-            sx={{
-              color: theme.palette.primary[200],
-            }}
-          >
-            Link 3
-          </Typography>
-          <Typography
-            sx={{
-              color: theme.palette.primary[200],
-            }}
-          >
-            Link 4
-          </Typography>
-        </Box>
-        <Typography
-          sx={{
-            color: theme.palette.primary[200],
-          }}
-        >
-          Social Media Icons
-        </Typography>
+            <Instagram />
+          </IconButton>
+          <IconButton>
+            <Facebook />
+          </IconButton>
+          <IconButton>
+            <Twitter />
+          </IconButton>
+        </Stack>
         <Typography
           sx={{
             color: theme.palette.primary[50],

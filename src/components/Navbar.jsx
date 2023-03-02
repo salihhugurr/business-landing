@@ -35,9 +35,6 @@ const navItems = [
     text: "Projects",
   },
   {
-    text: "Career",
-  },
-  {
     text: "Contact",
   },
 ];
@@ -114,9 +111,9 @@ const Navbar = ({ isSidebarOpen, setIsSidebarOpen, isNonMobile }) => {
         <FlexBetween>
           <IconButton onClick={() => dispatch(setMode())}>
             {theme.palette.mode === "dark" ? (
-              <DarkModeOutlined sx={{ fontSize: "25px" }} />
-            ) : (
               <LightModeOutlined sx={{ fontSize: "25px" }} />
+            ) : (
+              <DarkModeOutlined sx={{ fontSize: "25px" }} />
             )}
           </IconButton>
           <Button

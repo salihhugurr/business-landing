@@ -10,7 +10,6 @@ import Home from "scenes/home";
 import About from "scenes/about";
 import Contact from "scenes/contact";
 import Projects from "scenes/projects";
-import Career from "scenes/career";
 import { initReactI18next } from "react-i18next";
 import { translationEn } from "languages/translationEn";
 import { translationTr } from "languages/translationTr";
@@ -39,7 +38,6 @@ function App() {
               <Route path="/home" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/projects" element={<Projects />} />
-              <Route path="/career" element={<Career />} />
               <Route path="/contact" element={<Contact />} />
             </Route>
           </Routes>

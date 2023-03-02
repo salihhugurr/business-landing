@@ -47,10 +47,6 @@ const navItems = [
     icon: <TaskOutlined />,
   },
   {
-    text: "Career",
-    icon: <ReceiptLongOutlined />,
-  },
-  {
     text: "Contact",
     icon: <ContactPageOutlined />,
   },
