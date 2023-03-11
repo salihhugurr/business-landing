@@ -5,7 +5,7 @@ export const translationTr = {
   Career: "Kariyer",
   Contact: "İletişim",
   Pages: "Sayfalar",
-  Copyright: "@ 2023 Peglad. Tüm hakları saklıdır.",
+  Copyright: "© 2023 Peglad. Tüm hakları saklıdır.",
   Dream: "Hayalleriniz Gerçek Olsun",
   FinishedProject: "Tamamlanan Proje",
   MobileApp: "Mobil Uygulama",
@@ -63,4 +63,5 @@ export const translationTr = {
     "Mailiniz başarılı bir şekilde tarafımıza iletilmiştir. En kısa sürede sizinle iletişime geçeceğiz...",
   Error:
     "Mailiniz gönderilirken bir hatayla karşılaşıldı. Yakın zamanda konuyla ilgili çözüme ulaşacağız... Dilerseniz telefon numarası üzerinden iletişim sağlayabilirsiniz.",
+    Send:"Gönder",
 };

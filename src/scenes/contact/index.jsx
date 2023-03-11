@@ -14,6 +14,7 @@ import { useTranslation } from "react-i18next";
 import contact from "../../assets/contact.svg";
 import contactDark from "../../assets/contactDark.svg";
 import { Send } from "@mui/icons-material";
+import {Helmet} from "react-helmet"
 
 const Contact = () => {
   const [message, setMessage] = useState({
@@ -60,6 +61,10 @@ const Contact = () => {
       flexDirection={isNonMobile ? "row" : "column"}
       sx={{ display: "flex", minHeight: "100%" }}
     >
+      <Helmet>
+        <title>{t("Contact")}</title>
+        <meta name={t("Contact")} description="Peglad iletişim"/>
+      </Helmet>
       <Box
         flexDirection={"column"}
         gap={4}
@@ -146,7 +151,7 @@ const Contact = () => {
           variant="contained"
           endIcon={<Send />}
         >
-          Send
+          {t("Send")}
         </Button>
       </Box>
       <Box

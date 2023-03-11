@@ -69,9 +69,11 @@ const Navbar = ({ isSidebarOpen, setIsSidebarOpen, isNonMobile }) => {
         <FlexBetween gap="1.5rem">
           <img
             src={logo}
+            onClick={()=>navigate(`home`)}
             style={{
               height: isNonMobile ? 40 : 30,
               width: isNonMobile ? 40 : 30,
+              cursor:"pointer"
             }}
             alt="Peglad."
           />

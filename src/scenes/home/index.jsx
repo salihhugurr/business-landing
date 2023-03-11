@@ -13,6 +13,7 @@ import {
 } from "@mui/icons-material";
 import { useTranslation } from "react-i18next";
 import i18next from "i18next";
+import {Helmet} from "react-helmet"
 
 const Home = () => {
   const [counterOn, setCounterOn] = useState(false);
@@ -22,6 +23,10 @@ const Home = () => {
 
   return (
     <Box flexDirection={"column"} sx={{ display: "flex", minHeight: "100%" }}>
+      <Helmet>
+        <title>{t("Home")}</title>
+        <meta name={t("Home")} description="Anasayfa Açıklama"/>
+      </Helmet>
       <Box
         m={5}
         sx={{

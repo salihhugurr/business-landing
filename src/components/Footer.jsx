@@ -48,10 +48,14 @@ const Footer = () => {
           >
             <Instagram />
           </IconButton>
-          <IconButton>
+          <IconButton
+          href="https://www.facebook.com/pegladmedya/"
+          target="_blank">
             <Facebook />
           </IconButton>
-          <IconButton>
+          <IconButton
+          href="https://www.twitter.com/pegladmedya/"
+          target="_blank">
             <Twitter />
           </IconButton>
         </Stack>

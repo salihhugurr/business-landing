@@ -5,7 +5,7 @@ export const translationEn = {
   Career: "Career",
   Contact: "Contact",
   Pages: "Pages",
-  Copyright: "@ 2023 Peglad. All rights reserved.",
+  Copyright: "© 2023 Peglad. All rights reserved.",
   Dream: "Make Your Dreams Come True",
   FinishedProject: "Finished Project",
   MobileApp: "Mobile App",
@@ -39,15 +39,14 @@ export const translationEn = {
   provides high level of customer satisfaction with its solutions,
   transforming..`,
   proj1Name: `FUTURE PREDICTION APP`,
-  proj1Desc: `Projemiz literatürde en yaygın şekilde kullanılan derin öğrenme ve makine öğrenmesi algoritmaları kullanarak geleceğe yönelik tahminler yapmayı sağlayan bir uygulamadır. Geliştirilen uygulama sayesinde herhangi bir veri seti kullanılarak dinamik bir şekilde tahminleme modelleri oluşturulabilme ve oluşturulan bu modeller ile girilen veri setinin gelecekteki hali tahmin edilebilmektedir.`,
+  proj1Desc: `Our project is an application that allows making predictions for the future by using deep learning and machine learning algorithms, which are the most widely used in the literature. Thanks to the developed application, estimation models can be created dynamically using any data set and the future state of the entered data set can be predicted with these models.`,
   proj2Name: `COVID STATISTIC WEBSITE`,
-  proj2Desc: `Uygulamamız WHO’nun (Dünya Sağlık Örgütü) paylaşmış olduğu rest api kullanarak ve son teknoloji Javascript fetch özellikleri ile covid-19 salgınının her gün ve toplamdaki istatistiklerini her an online şekilde sunmaktadır.`,
+  proj2Desc: `Our application presents daily and total statistics of the covid-19 epidemic online at any time, using the rest api shared by WHO (World Health Organization) and with the latest technology Javascript fetch features.`,
   proj3Name: `COVİD-19
   CHATBOT`,
-  proj3Desc: `Geliştirdiğimiz Covid-19 Chatbot Bert ve Transformer derin öğrenme altyapılarını kullanarak Dünya Sağlık Örgütünün sağladı veri ile eğitilmiş ve Covid-19 hakkında bütün bilgileri kullanıcılara anlık olarak sunabilmiştir.`,
+  proj3Desc: `The Covid-19 Chatbot we developed, using Bert and Transformer deep learning infrastructures, was trained with the data provided by the World Health Organization and was able to instantly present all information about Covid-19 to the users.`,
   proj4Name: `LONDON TRANSPORTATION MOBILE APP`,
-  proj4Desc: `Londra’da bulunan özel bir seyahat acentesi için geliştirilmiş London Transportation mobil uygulamamız Londra Belediyesinin bizlere sağlamış olduğu harita, yol ve ulaşım bilgileri kullanılarak android ve ios uygulaması olarak acenteye tasarlanmıştır. Uygulama qr kod yardımı ile en yakın rotayı oluşturabilmekte ve en yakın ulaşım aracını lokasyon olarak kullanıcıya sunabilmektedir.
-  `,
+  proj4Desc: `Our London Transportation mobile application, developed for a private travel agency in London, was designed for the agency as an android and iOS application, using the map, road and transportation information provided to us by the Municipality of London. The application can create the closest route with the help of qr code and present the closest transportation vehicle to the user as a location.`,
   writeUs: "WRITE US",
   Name: "Name",
   Head: "Head",
@@ -56,4 +55,5 @@ export const translationEn = {
     "Your email has been sent succesfully. We will contact with you as soon as possible...",
   Error:
     "An error occurred while sending email. We will solve this problem as soon as possible... If you want you can contact with us by calling.",
+    Send:"Send",
 };

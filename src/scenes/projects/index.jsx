@@ -6,6 +6,7 @@ import project3 from "../../assets/project3.svg";
 import project4 from "../../assets/project4.svg";
 
 import { useTranslation } from "react-i18next";
+import {Helmet} from "react-helmet"
 
 const Projects = () => {
   const theme = useTheme();
@@ -37,6 +38,10 @@ const Projects = () => {
 
   return (
     <Box flexDirection={"column"} sx={{ display: "flex", minHeight: "100%" }}>
+      <Helmet>
+        <title>{t("Projects")}</title>
+        <meta name={t("Projects")} description="Peglad projeleri"/>
+      </Helmet>
       {allProjects.map((item, index) => (
         <Box
           flexDirection={"column"}

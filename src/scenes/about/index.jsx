@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import office from "../../assets/office.svg";
 import teamDark from "../../assets/teamDark.svg";
 import team from "../../assets/team.svg";
+import {Helmet} from "react-helmet"
 
 import { useTranslation } from "react-i18next";
 
@@ -13,6 +14,10 @@ const About = () => {
 
   return (
     <Box flexDirection={"column"} sx={{ display: "flex", minHeight: "100%" }}>
+      <Helmet>
+        <title>{t("About")}</title>
+        <meta name={t("About")} description="Peglad hakkında"/>
+      </Helmet>
       <Box
         m={5}
         sx={{
@@ -99,9 +104,9 @@ const About = () => {
           <Typography
             color={theme.palette.secondary[50]}
             textAlign="center"
-            letterSpacing={1}
-            fontFamily="bold"
-            fontSize={isNonMobile ? 16 : 14}
+            fontWeight="bold"
+            letterSpacing={.5}
+            fontSize={isNonMobile ? 14 : 12}
             marginTop={2}
           >
             {t("QualityDesc")}
