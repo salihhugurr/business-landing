@@ -104,8 +104,6 @@ const About = () => {
           <Typography
             color={theme.palette.secondary[50]}
             textAlign="center"
-            fontWeight="bold"
-            letterSpacing={.5}
             fontSize={isNonMobile ? 14 : 12}
             marginTop={2}
           >

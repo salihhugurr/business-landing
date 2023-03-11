@@ -95,7 +95,7 @@ const Navbar = ({ isSidebarOpen, setIsSidebarOpen, isNonMobile }) => {
                             : "transparent",
                         color:
                           active === lcText
-                            ? theme.palette.primary[600]
+                            ? theme.palette.primary[300]
                             : theme.palette.secondary[200],
                       }}
                     >
