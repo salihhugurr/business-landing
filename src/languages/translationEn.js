@@ -56,4 +56,7 @@ export const translationEn = {
   Error:
     "An error occurred while sending email. We will solve this problem as soon as possible... If you want you can contact with us by calling.",
     Send:"Send",
+    HomeDesc1:"Web site tasarımlarınızla, bulunduğunuz sektör içerisinde ve talepleriniz doğrultusunda fark yaratmak sizin elinizde.",
+    HomeDesc2:"IOS ve Android uyumlu dilediğiniz özellikteki mobil uygulamalar ile fikirleriniz dijital dünyada yerini alsın.",
+    HomeDesc3:"Yapay zeka algoritmaları ile iş gücünden ve zamanınızdan kazanabilirsiniz. Ortak AR-GE çalışmalarımızla bulunduğunuz sektörün nabzını tutun.",
 };

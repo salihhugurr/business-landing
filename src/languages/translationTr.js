@@ -64,4 +64,7 @@ export const translationTr = {
   Error:
     "Mailiniz gönderilirken bir hatayla karşılaşıldı. Yakın zamanda konuyla ilgili çözüme ulaşacağız... Dilerseniz telefon numarası üzerinden iletişim sağlayabilirsiniz.",
     Send:"Gönder",
+    HomeDesc1:"⦿ Web site tasarımlarınızla, bulunduğunuz sektör içerisinde ve talepleriniz doğrultusunda fark yaratmak sizin elinizde.",
+    HomeDesc2:"⦿ IOS ve Android uyumlu dilediğiniz özellikteki mobil uygulamalar ile fikirleriniz dijital dünyada yerini alsın.",
+    HomeDesc3:"⦿ Yapay zeka algoritmaları ile iş gücünden ve zamanınızdan kazanabilirsiniz. Ortak AR-GE çalışmalarımızla bulunduğunuz sektörün nabzını tutun.",
 };
