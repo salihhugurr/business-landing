@@ -14,30 +14,11 @@ export const translationEn = {
   Address:
     "Cemalpaşa Quarter, Gazipaşa Avenue No:22 Martı Apt. Floor 5 Seyhan/Adana",
   Quality: "Our Vision and Mission",
-  QualityDesc: `Peglad acts with the vision of offering the most accurate solution as soon as possible. quality of your name
-  By always keeping efficiency and service quality in the foreground, in order to express it with
-  Peglad, which provides services, constantly employs its staff with the understanding that its most important resource is human.
-  strengthens and develops.
-
-
-  International business partnerships and deep-rooted software traditions with a modern understanding
-  Shaped according to technology and fast production needs, Peglad became a pioneer in the sector in a short time.
-  took its place among the technology development companies.
-  
-  It focuses on Customer Relationship Management Systems, Business Intelligence, e-Commerce applications and Mobile
-  Peglad, who has successfully signed many national and international projects in the field of applications,
-  at the same time, by anticipating the developing sectoral needs with its visionary approach, new products and
-  adds services to its portfolio.
-  
-  Continuing to grow with the projects it has completed, each of which is shown as a reference in its sector.
-  Peglad is not only in the point of meeting the needs, but also in the future for its customers.
-  strategic business by providing full support for innovations and anticipation of new needs.
-  has adopted the principle of partnership.
-  
-  With the products and solution partnerships it has developed since its establishment, the technology is at an advanced level.
-  Peglad, which has strengthened its expertise in the use and consultancy of corporate solutions,
-  provides high level of customer satisfaction with its solutions,
-  transforming..`,
+  QualityDesc1: "⦿ Peglad acts with the vision of offering the most accurate solution as soon as possible. quality of your nameBy always keeping efficiency and service quality in the foreground, in order to express it withPeglad, which provides services, constantly employs its staff with the understanding that its most important resource is human.strengthens and develops.",
+  QualityDesc2: "⦿ International business partnerships and deep-rooted software traditions with a modern understandingShaped according to technology and fast production needs, Peglad became a pioneer in the sector in a short time.took its place among the technology development companies.",
+  QualityDesc3: "⦿ It focuses on Customer Relationship Management Systems, Business Intelligence, e-Commerce applications and MobilePeglad, who has successfully signed many national and international projects in the field of applications,at the same time, by anticipating the developing sectoral needs with its visionary approach, new products andadds services to its portfolio.",
+  QualityDesc4: "⦿ Continuing to grow with the projects it has completed, each of which is shown as a reference in its sector.Peglad is not only in the point of meeting the needs, but also in the future for its customers.strategic business by providing full support for innovations and anticipation of new needs.has adopted the principle of partnership.",
+  QualityDesc5: "⦿ With the products and solution partnerships it has developed since its establishment, the technology is at an advanced level.Peglad, which has strengthened its expertise in the use and consultancy of corporate solutions,provides high level of customer satisfaction with its solutions,transforming...",
   proj1Name: `FUTURE PREDICTION APP`,
   proj1Desc: `Our project is an application that allows making predictions for the future by using deep learning and machine learning algorithms, which are the most widely used in the literature. Thanks to the developed application, estimation models can be created dynamically using any data set and the future state of the entered data set can be predicted with these models.`,
   proj2Name: `COVID STATISTIC WEBSITE`,
@@ -56,7 +37,8 @@ export const translationEn = {
   Error:
     "An error occurred while sending email. We will solve this problem as soon as possible... If you want you can contact with us by calling.",
     Send:"Send",
-    HomeDesc1:"Web site tasarımlarınızla, bulunduğunuz sektör içerisinde ve talepleriniz doğrultusunda fark yaratmak sizin elinizde.",
-    HomeDesc2:"IOS ve Android uyumlu dilediğiniz özellikteki mobil uygulamalar ile fikirleriniz dijital dünyada yerini alsın.",
-    HomeDesc3:"Yapay zeka algoritmaları ile iş gücünden ve zamanınızdan kazanabilirsiniz. Ortak AR-GE çalışmalarımızla bulunduğunuz sektörün nabzını tutun.",
+    HomeDesc1:"⦿ It is in your hands to make a difference with your website designs, in the sector you are in and in line with your demands.",
+    HomeDesc2:"⦿ Let your ideas take their place in the digital world with any mobile applications compatible with iOS and Android.",
+    HomeDesc3:"⦿ With artificial intelligence algorithms, you can save your labor and time. Take the pulse of your industry with our joint R&D studies.",
+    AboutUs:"Our organization is the first step taken for six close friends to come together and create a global brand. We have been under this roof for many years with our technical staff who have been working in long-established companies in different departments of informatics. Do not forget that under this roof, you are not a business partner with us, but a part of the family."
 };

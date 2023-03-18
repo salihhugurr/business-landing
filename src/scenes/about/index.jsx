@@ -48,14 +48,7 @@ const About = () => {
             fontSize={isNonMobile ? 16 : 12}
             marginTop={2}
           >
-            Lorem ipsum dolor sit amet. Nam optio nisi aut facilis fugit et
-            molestias sapiente eos internos sint. Sed accusamus doloribus ut
-            quidem quibusdam ut ipsum quibusdam! Est voluptatibus debitis eum
-            libero nobis sed commodi harum non soluta iusto. Et numquam
-            voluptatem id minima voluptas a enim ipsa quo iusto deserunt ea
-            excepturi adipisci. Qui natus deleniti qui deserunt vero ut laborum
-            quae. Non quod facilis et voluptatem consequatur in laborum quis in
-            esse nobis vel dolores harum aut fuga consequatur ut iusto facere?
+            {t("AboutUs")}
           </Typography>
         </Box>
       </Box>
@@ -107,7 +100,7 @@ const About = () => {
             fontSize={isNonMobile ? 14 : 12}
             marginTop={2}
           >
-            {t("QualityDesc")}
+            {t("QualityDesc1")} <br/><br/> {t("QualityDesc2")} <br/><br/> {t("QualityDesc3")} <br/><br/> {t("QualityDesc4")} <br/><br/> {t("QualityDesc5")}  
           </Typography>
         </Box>
       </Box>
